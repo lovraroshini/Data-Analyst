@@ -105,8 +105,8 @@ pip install pandas
 Sales-Analysis/
 │
 ├── sales_data.csv
-├── sales_analysis.ipynb
-├── sales_dashboard.pbix
-├── sales_dashboard.png
+├── sales_data_analysis_using_jupyternotebook.ipynb
+├── sales data visualization.pbit
+├── Dashboard.jpg
 └── README.md
 ```
