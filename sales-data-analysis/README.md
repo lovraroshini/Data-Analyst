@@ -1,45 +1,112 @@
-# 📊 Sales Data Analysis
+# 📊 Sales Data Analysis using Python & Power BI Dashboard
 
-## What I Did
+## 📌 Project Overview
+This project analyzes sales data to understand regional performance, monthly trends, and overall business revenue.  
+Data cleaning and analysis were performed using Python and Pandas in Jupyter Notebook.  
+The final insights were visualized through an interactive dashboard created in Power BI.
 
-### 1. Data Cleaning
-- Checked for missing values using `df.isnull().sum()` — no nulls found
-- Dropped null rows using `df.dropna()`
+---
 
-### 2. Total Revenue
-- Calculated overall total sales amount → **$5,019,265.23**
+## 🎯 Objectives
 
-### 3. Sales by Region
-- Grouped sales by region to compare regional performance
-
-| Region | Total Sales |
-|--------|-------------|
-| North  | $1,369,612.51 |
-| East   | $1,259,792.93 |
-| West   | $1,235,608.93 |
-| South  | $1,154,250.86 |
-
-### 4. Monthly Sales Trend
-- Converted `Sale_Date` to datetime format
-- Extracted `Month` from `Sale_Date`
-- Grouped sales month-wise to identify trends
-
-| Month | Sales Amount |
-|-------|-------------|
-| 2023-01 | $476,092.36 |
-| 2023-02 | $368,919.36 |
-| 2023-03 | $402,638.77 |
-| 2023-04 | $438,992.61 |
-| 2023-05 | $389,078.76 |
-| 2023-06 | $418,458.34 |
-| 2023-07 | $374,242.88 |
-| 2023-08 | $443,171.28 |
-| 2023-09 | $367,837.60 |
-| 2023-10 | $460,378.78 |
-| 2023-11 | $467,482.90 |
-| 2023-12 | $392,643.58 |
+- Perform data cleaning and preprocessing  
+- Calculate total sales revenue  
+- Compare sales performance across regions  
+- Identify monthly sales trends  
+- Build a business dashboard for visualization  
 
 ---
 
 ## 🛠️ Tools Used
-- Python, Pandas, Jupyter Notebook
+
+- Python  
+- Pandas  
+- Jupyter Notebook  
+- Power BI  
+
+---
+
+## 🧹 Data Cleaning & Preparation
+
+- Checked missing values using `df.isnull().sum()`  
+- Removed null rows using `df.dropna()`  
+- Converted `Sale_Date` column into datetime format  
+- Extracted Month for trend analysis  
+
+---
+
+## 💰 Total Revenue
+
+Total Revenue Generated:
+
+**$5.02 Million**
+
+---
+
+## 🌍 Sales by Region
+
+| Region | Sales |
+|--------|------|
+| North | Highest |
+| East | Moderate |
+| West | Moderate |
+| South | Lowest |
+
+---
+
+## 📅 Monthly Sales Trend
+
+- Peak Sales → October & November  
+- Lowest Sales → February & September  
+- Indicates seasonal business pattern  
+
+---
+
+## 📊 Power BI Dashboard
+
+The dashboard includes:
+
+- Bar Chart → Sales by Region  
+- Line Chart → Monthly Sales Trend  
+- KPI Card → Total Revenue  
+
+### 🖼️ Dashboard Preview
+
+![Sales Dashboard](sales_dashboard.png)
+
+---
+
+## 💡 Business Insights
+
+- North region is the strongest revenue contributor  
+- South region needs targeted marketing strategy  
+- Business demand increases during Q4  
+- Low sales months require promotional planning  
+
+---
+
+## ▶️ How to Run This Project
+
+1. Install pandas:
+
+```
+pip install pandas
+```
+
+2. Open Jupyter Notebook → Run analysis file  
+
+3. Open Power BI `.pbix` file to view dashboard  
+
+---
+
+## 📁 Project Structure
+
+```
+Sales-Analysis/
+│
+├── sales_data.csv
+├── sales_analysis.ipynb
+├── sales_dashboard.pbix
+├── sales_dashboard.png
+└── README.md
+```
