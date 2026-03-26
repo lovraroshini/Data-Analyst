@@ -72,7 +72,7 @@ The dashboard includes:
 
 ### 🖼️ Dashboard Preview
 
-![Sales Dashboard](sales_dashboard.png)
+![Sales Dashboard](Dashboard.jpg)
 
 ---
 
