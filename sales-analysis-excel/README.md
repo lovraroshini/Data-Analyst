@@ -97,10 +97,13 @@ This dashboard provides meaningful insights into business performance and suppor
 ---
 
 ## 📁 Project Structure
-sales-dashboard-excel/
 
+```
+sales-dashboard-excel/
+│
 │── Sales_Dashboard.xlsx  
 │── image.jpeg  
 │── README.md  
 └── data/  
 └── train.csv
+```
